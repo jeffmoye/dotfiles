@@ -1,11 +1,11 @@
 dotfiles.git
 ============
-Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
+Clone and run this on a new EC2 instance running Ubuntu 14.04 LTS to
 configure your `bash` and `emacs` development environment as follows:
 
 ```sh
 cd $HOME
-git clone https://github.com/startup-class/dotfiles.git
+git clone https://github.com/jeffmoye/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
@@ -14,7 +14,7 @@ mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
 ```
 
-See also http://github.com/startup-class/setup to install prerequisite
+See also http://github.com/jeffmoye/setup to install prerequisite
 programs. If all goes well, in addition to a more useful prompt, now you can
 do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
 REPL, among many other features. See the
