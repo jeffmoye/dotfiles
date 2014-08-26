@@ -1,0 +1,4 @@
+#.inputrc - remaps keys in the shell 
+
+# remap <alt>3 to hash
+"\e3": '#'
