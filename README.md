@@ -1,7 +1,8 @@
 dotfiles.git
 ============
 Clone and run this on a new EC2 instance running Ubuntu 14.04 LTS to
-configure your `bash` and `emacs` development environment as follows:
+configure your `bash` and `emacs` development environment as follows
+(this is done for you by the setup.sh script):
 
 ```sh
 cd $HOME
@@ -10,6 +11,7 @@ ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
+ln -sb dotfiles/.inputrc .
 mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
 ```
