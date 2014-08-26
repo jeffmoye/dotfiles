@@ -69,8 +69,8 @@
 ; Correct my UK keyboard so i can type:
 ; # (alt-3)
 (global-set-key (kbd "M-3") "#")
-; £ (shift-3)
-(global-set-key (kbd "M-#") "£")
+;; £ (shift-3)
+;(global-set-key (kbd "M-#") "£")
 
 ;; ---------------------------
 ;; -- JS Mode configuration --
