@@ -65,6 +65,8 @@
 (global-set-key "\M-d" 'delete-word)
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
+; and one to correct my uk keyboard so i can type # (alt-3) again
+(global-set-key (kbd "M-3") "#")
 
 ;; ---------------------------
 ;; -- JS Mode configuration --
