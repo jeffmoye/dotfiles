@@ -1,6 +1,6 @@
 ;; -*- mode: emacs-lisp -*-
 ;; Simple .emacs configuration
-
+ 
 ;; ---------------------
 ;; -- Global Settings --
 ;; ---------------------
